@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title></title>
+      <link rel="stylesheet" href="css/loader.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://www.veritaschina.org/libs/fontawesome-5.12.1/css/fontawesome.min.css">
+      <link href="favicon32.png" rel="icon" type="image/x-icon">
+      <script src="https://www.veritaschina.org/libs/jquery/jquery.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/validate.js"></script>
+      <link href="success.html" rel="prefetch">
+   </head>
+   <body>
+      <div class="spinner-wrapper">
+         <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+         </div>
+      </div>
+      <header id="header"></header>
+      <form class="formsheet" id="formsheet" method="post" action="success.php" enctype="multipart/form-data" novalidate>
+         <div id="wj-header">
+            <p id="wj-title"></p>
+            <p id="wj-description"></p>
+         </div>
+         <hr id="dashline">
+         <div class="info" id="form-content">
+            <div class="hide">
+               <input name="pot" />
+            </div>
+         </div>
+         <script>
+            function showDiv() {
+               if ($("#formsheet").valid()) {
+               document.getElementsByClassName('spinner-wrapper')[0].style.display = 'block';
+               }
+            }
+         </script>
+         <div class="text-center">
+            <input type="submit" value="提交" class="submit" onload="showDiv()" />
+         </div>
+      </form>
+      <footer class="text-center">
+         <p>
+            Copyright © 2015-2020 <b>Veritas China</b>
+         </p>
+         <p>
+            Designed and Built by <a class="name" href="https://izaktan.tech" target="_blank"><b>Xiao Tan</b></a>
+         </p>
+      </footer>
+      <script src="js/main.js"></script>
+
+      <!-- generate starts-->
+
+      <script src="js/auto-generate.js"></script>
+
+      <!-- generate ends -->
+
+   </body>
+</html>

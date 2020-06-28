@@ -1,0 +1,130 @@
+{
+    "title": "Form Source Code Generator",
+    "style": "survey",
+    "description": "SURVEY DESCRIPTION",
+    "qInfo": [
+        {
+            "question": "姓名",
+            "style": "default",
+            "required": true,
+            "input": {
+                "type": "text",
+                "placeholder": "请填写你的姓名"
+            }
+        },
+        {
+            "question": "性别",
+            "style": "radio",
+            "required": true,
+            "choice": [
+                "男",
+                "女",
+                "其它",
+                "不愿透露"
+            ],
+            "other": false
+        },
+        {
+            "question": "在读学校",
+            "style": "default",
+            "required": true,
+            "input": {
+                "type": "text",
+                "placeholder": "请填写你的在读学校"
+            }
+        },
+        {
+            "question": "年级",
+            "style": "select",
+            "required": true,
+            "choice": [
+                "初中",
+                "9年级（美制学校）",
+                "10年级",
+                "11年级",
+                "12年级",
+                "大一",
+                "大二",
+                "大三",
+                "大四",
+                "本科已毕业"
+            ]
+        },
+        {
+            "question": "电子邮箱",
+            "style": "default",
+            "required": true,
+            "input": {
+                "type": "email",
+                "placeholder": "请填写你的电子邮箱"
+            }
+        },
+        {
+            "question": "微信号（如使用QQ，请标记为QQ号）",
+            "style": "default",
+            "required": true,
+            "input": {
+                "type": "text",
+                "placeholder": "请填写你的微信号（或QQ号）"
+            }
+        },
+        {
+            "question": "你通过什么方式了解到唯理工作坊？",
+            "style": "checkbox",
+            "required": false,
+            "choice": [
+                "周围人介绍",
+                "唯理中国公众号",
+                "其它公众号",
+                "唯理中国微博",
+                "唯理中国线上项目：线上课程、性别工作坊、播客唯理对谈、或唯理通讯",
+                "留学中介",
+                "其它（请注明）"
+            ]
+        },
+        {
+            "question": "是否参加过唯理中国的以下活动？",
+            "style": "checkbox",
+            "required": false,
+            "choice": [
+                "2015-2018唯理书院",
+                "2019唯理书院被录取",
+                "参与线上课程或观看课程录像",
+                "其它（请注明）"
+            ]
+        },
+        {
+            "question": "你是否正在中国大陆以外的地区上学，或是否在未来有出国学习的意向？",
+            "style": "radio",
+            "required": true,
+            "choice": [
+                "是",
+                "否"
+            ]
+        },
+        {
+            "question": "请选择你希望报名的主题工作坊（多选）：",
+            "style": "checkbox",
+            "required": false,
+            "choice": [
+                "探索社会科学",
+                "探索语言",
+                "思考数学与科学"
+            ]
+        },
+        {
+            "question": "请简述你报名主题工作坊的原因：",
+            "style": "textarea",
+            "required": true,
+            "rowNum": 8
+        },
+        {
+            "question": "Textarea Question 2",
+            "style": "textarea",
+            "required": false,
+            "rowNum": 8
+        }
+    ],
+    "database": true,
+    "email": true
+}
